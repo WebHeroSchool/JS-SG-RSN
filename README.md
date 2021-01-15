@@ -147,7 +147,6 @@ let isJedi = luke.jedi;
 :thumbsdown: Плохой пример:  
 ```
 let 5name = Tom;
-let first-name = Tom;
 let firstname = Tom;
 ```
 :thumbsup: Хороший пример:
