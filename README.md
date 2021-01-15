@@ -5,11 +5,13 @@
 :thumbsdown: Плохой пример:  
 ```
    let leia = {}
+   
    [luke, leia].forEach(jedi => jedi.father = 'vader')
 ```
 :thumbsup: Хороший пример:
 ```  
   let leia = {};
+  
   [luke, leia].forEach((jedi) => {
   jedi.father = 'vader';
   }); 
